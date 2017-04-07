@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999B91E97795300A8D53A /* AppDelegate.swift */; };
+		1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999BB1E97795300A8D53A /* ViewController.swift */; };
+		1EE999BF1E97795300A8D53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE999BD1E97795300A8D53A /* Main.storyboard */; };
+		1EE999C21E97795300A8D53A /* Dorm_takki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999C01E97795300A8D53A /* Dorm_takki.xcdatamodeld */; };
+		1EE999C41E97795300A8D53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE999C31E97795300A8D53A /* Assets.xcassets */; };
+		1EE999C71E97795300A8D53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE999C51E97795300A8D53A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EE999B61E97795300A8D53A /* Dorm+takki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dorm+takki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE999B91E97795300A8D53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EE999BB1E97795300A8D53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EE999BE1E97795300A8D53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EE999C11E97795300A8D53A /* Dorm_takki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dorm_takki.xcdatamodel; sourceTree = "<group>"; };
+		1EE999C31E97795300A8D53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EE999C61E97795300A8D53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EE999C81E97795300A8D53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE999B31E97795300A8D53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE999AD1E97795300A8D53A = {
+			isa = PBXGroup;
+			children = (
+				1EE999B81E97795300A8D53A /* Dorm+takki */,
+				1EE999B71E97795300A8D53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE999B71E97795300A8D53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE999B61E97795300A8D53A /* Dorm+takki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE999B81E97795300A8D53A /* Dorm+takki */ = {
+			isa = PBXGroup;
+			children = (
+				1EE999B91E97795300A8D53A /* AppDelegate.swift */,
+				1EE999BB1E97795300A8D53A /* ViewController.swift */,
+				1EE999BD1E97795300A8D53A /* Main.storyboard */,
+				1EE999C31E97795300A8D53A /* Assets.xcassets */,
+				1EE999C51E97795300A8D53A /* LaunchScreen.storyboard */,
+				1EE999C81E97795300A8D53A /* Info.plist */,
+				1EE999C01E97795300A8D53A /* Dorm_takki.xcdatamodeld */,
+			);
+			path = "Dorm+takki";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE999B51E97795300A8D53A /* Dorm+takki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE999CB1E97795300A8D53A /* Build configuration list for PBXNativeTarget "Dorm+takki" */;
+			buildPhases = (
+				1EE999B21E97795300A8D53A /* Sources */,
+				1EE999B31E97795300A8D53A /* Frameworks */,
+				1EE999B41E97795300A8D53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dorm+takki";
+			productName = "Dorm+takki";
+			productReference = 1EE999B61E97795300A8D53A /* Dorm+takki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE999AE1E97795300A8D53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "이승희";
+				TargetAttributes = {
+					1EE999B51E97795300A8D53A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7NMZQ5ZZP5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1EE999B11E97795300A8D53A /* Build configuration list for PBXProject "Dorm+takki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EE999AD1E97795300A8D53A;
+			productRefGroup = 1EE999B71E97795300A8D53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE999B51E97795300A8D53A /* Dorm+takki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE999B41E97795300A8D53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE999C71E97795300A8D53A /* LaunchScreen.storyboard in Resources */,
+				1EE999C41E97795300A8D53A /* Assets.xcassets in Resources */,
+				1EE999BF1E97795300A8D53A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE999B21E97795300A8D53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */,
+				1EE999C21E97795300A8D53A /* Dorm_takki.xcdatamodeld in Sources */,
+				1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EE999BD1E97795300A8D53A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE999BE1E97795300A8D53A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EE999C51E97795300A8D53A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE999C61E97795300A8D53A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EE999C91E97795300A8D53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EE999CA1E97795300A8D53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE999CC1E97795300A8D53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NMZQ5ZZP5;
+				INFOPLIST_FILE = "Dorm+takki/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seunghee.Dorm-takki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EE999CD1E97795300A8D53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NMZQ5ZZP5;
+				INFOPLIST_FILE = "Dorm+takki/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seunghee.Dorm-takki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE999B11E97795300A8D53A /* Build configuration list for PBXProject "Dorm+takki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE999C91E97795300A8D53A /* Debug */,
+				1EE999CA1E97795300A8D53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE999CB1E97795300A8D53A /* Build configuration list for PBXNativeTarget "Dorm+takki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE999CC1E97795300A8D53A /* Debug */,
+				1EE999CD1E97795300A8D53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EE999C01E97795300A8D53A /* Dorm_takki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EE999C11E97795300A8D53A /* Dorm_takki.xcdatamodel */,
+			);
+			currentVersion = 1EE999C11E97795300A8D53A /* Dorm_takki.xcdatamodel */;
+			path = Dorm_takki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EE999AE1E97795300A8D53A /* Project object */;
+}
