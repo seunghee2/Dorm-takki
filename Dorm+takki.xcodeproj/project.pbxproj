@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5B9D021E9DD2260051AF6A /* BebasNeue_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */; };
+		1E5B9D031E9DD2280051AF6A /* BebasNeue_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */; };
+		1E5B9D041E9DD22A0051AF6A /* BebasNeue_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */; };
+		1E5B9D051E9DD22D0051AF6A /* BebasNeue_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9D001E9DD20B0051AF6A /* BebasNeue_Regular.ttf */; };
+		1E5B9D061E9DD22F0051AF6A /* BebasNeue_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9D011E9DD20B0051AF6A /* BebasNeue_Thin.ttf */; };
+		1E5B9D081E9DD48B0051AF6A /* icon_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9D071E9DD48B0051AF6A /* icon_v2.png */; };
+		1EC870A51E9DCB2500C58B63 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC870A41E9DCB2500C58B63 /* icon.png */; };
 		1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999B91E97795300A8D53A /* AppDelegate.swift */; };
 		1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999BB1E97795300A8D53A /* ViewController.swift */; };
 		1EE999BF1E97795300A8D53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE999BD1E97795300A8D53A /* Main.storyboard */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Bold.ttf; sourceTree = "<group>"; };
+		1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Book.ttf; sourceTree = "<group>"; };
+		1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Light.ttf; sourceTree = "<group>"; };
+		1E5B9D001E9DD20B0051AF6A /* BebasNeue_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Regular.ttf; sourceTree = "<group>"; };
+		1E5B9D011E9DD20B0051AF6A /* BebasNeue_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Thin.ttf; sourceTree = "<group>"; };
+		1E5B9D071E9DD48B0051AF6A /* icon_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_v2.png; sourceTree = "<group>"; };
+		1EC870A41E9DCB2500C58B63 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1EE999B61E97795300A8D53A /* Dorm+takki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dorm+takki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE999B91E97795300A8D53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE999BB1E97795300A8D53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EC870A31E9DCB0E00C58B63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D071E9DD48B0051AF6A /* icon_v2.png */,
+				1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */,
+				1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */,
+				1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */,
+				1E5B9D001E9DD20B0051AF6A /* BebasNeue_Regular.ttf */,
+				1E5B9D011E9DD20B0051AF6A /* BebasNeue_Thin.ttf */,
+				1EC870A41E9DCB2500C58B63 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1EE999AD1E97795300A8D53A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +84,7 @@
 		1EE999B81E97795300A8D53A /* Dorm+takki */ = {
 			isa = PBXGroup;
 			children = (
+				1EC870A31E9DCB0E00C58B63 /* Resources */,
 				1EE999B91E97795300A8D53A /* AppDelegate.swift */,
 				1EE999BB1E97795300A8D53A /* ViewController.swift */,
 				1EE999BD1E97795300A8D53A /* Main.storyboard */,
@@ -127,8 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5B9D021E9DD2260051AF6A /* BebasNeue_Bold.ttf in Resources */,
+				1EC870A51E9DCB2500C58B63 /* icon.png in Resources */,
+				1E5B9D041E9DD22A0051AF6A /* BebasNeue_Light.ttf in Resources */,
+				1E5B9D031E9DD2280051AF6A /* BebasNeue_Book.ttf in Resources */,
+				1E5B9D051E9DD22D0051AF6A /* BebasNeue_Regular.ttf in Resources */,
 				1EE999C71E97795300A8D53A /* LaunchScreen.storyboard in Resources */,
 				1EE999C41E97795300A8D53A /* Assets.xcassets in Resources */,
+				1E5B9D061E9DD22F0051AF6A /* BebasNeue_Thin.ttf in Resources */,
+				1E5B9D081E9DD48B0051AF6A /* icon_v2.png in Resources */,
 				1EE999BF1E97795300A8D53A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +342,7 @@
 				1EE999CD1E97795300A8D53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
