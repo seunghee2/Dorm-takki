@@ -53,7 +53,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bUQ-vm-P8g" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="tabbar01_nor" selectedImage="tabbar01_sel" id="hVg-sA-0mL"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GH5-OQ-7i0">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="GH5-OQ-7i0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -93,7 +93,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1M4-fy-lar" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Stats" image="tabbar02_nor" selectedImage="tabbar02_sel" id="Sf2-uM-wZz"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FPr-6K-iL7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="FPr-6K-iL7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -150,7 +150,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ThB-eB-ygP" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Notices" image="tabbar03_nor" selectedImage="tabbar03_sel" id="UPb-oI-UnF"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W9G-0j-Nrw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="W9G-0j-Nrw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -188,7 +188,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UMQ-rK-hwt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Reservation" image="tabbar04_nor" selectedImage="tabbar04_sel" id="4ZW-Ka-2sP"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v7f-rw-VJp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="v7f-rw-VJp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -207,7 +207,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lr6-0m-50Y" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="My Page" image="tabbar05_nor" selectedImage="tabbar05_sel" id="Ec7-eP-0b1"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zhs-Je-jYD">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Zhs-Je-jYD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
