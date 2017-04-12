@@ -9,16 +9,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dorm_takki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Dorm_takki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="2087" y="-595"/>
         </scene>
-        <!--View Controller-->
+        <!--Stats View Controller-->
         <scene sceneID="qPw-OS-pDD">
             <objects>
-                <viewController id="LL5-8J-6v1" sceneMemberID="viewController">
+                <viewController id="LL5-8J-6v1" customClass="StatsViewController" customModule="Dorm_takki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ysk-Wo-3iq"/>
                         <viewControllerLayoutGuide type="bottom" id="HZO-a0-3t9"/>
@@ -53,9 +53,14 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bUQ-vm-P8g" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="tabbar01_nor" selectedImage="tabbar01_sel" id="hVg-sA-0mL"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="GH5-OQ-7i0">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="GH5-OQ-7i0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -106,10 +111,10 @@
             </objects>
             <point key="canvasLocation" x="1270" y="101"/>
         </scene>
-        <!--View Controller-->
+        <!--Notice View Controller-->
         <scene sceneID="KK7-qx-2Z3">
             <objects>
-                <viewController id="rvp-lD-asj" sceneMemberID="viewController">
+                <viewController id="rvp-lD-asj" customClass="NoticeViewController" customModule="Dorm_takki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3za-JO-Ufz"/>
                         <viewControllerLayoutGuide type="bottom" id="lAR-tu-FEw"/>
@@ -125,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="2086" y="790"/>
         </scene>
-        <!--View Controller-->
+        <!--Reservation View Controller-->
         <scene sceneID="lRo-sk-8mw">
             <objects>
-                <viewController id="nvb-nN-pKv" sceneMemberID="viewController">
+                <viewController id="nvb-nN-pKv" customClass="ReservationViewController" customModule="Dorm_takki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L9p-IC-0GU"/>
                         <viewControllerLayoutGuide type="bottom" id="hCr-t7-DZR"/>
@@ -163,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="1270" y="791"/>
         </scene>
-        <!--View Controller-->
+        <!--My Page View Controller-->
         <scene sceneID="2f0-AR-kpi">
             <objects>
-                <viewController id="qle-pe-N62" sceneMemberID="viewController">
+                <viewController id="qle-pe-N62" customClass="MyPageViewController" customModule="Dorm_takki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gsV-Ei-SBu"/>
                         <viewControllerLayoutGuide type="bottom" id="2ff-Qy-hn5"/>

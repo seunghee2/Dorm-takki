@@ -16,9 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Launch Screen Delays
+        Thread.sleep(forTimeInterval: 3.0)
+        
+        // Tab Bar Styles
         UITabBar.appearance().tintColor = UIColor.init(red: 100/255.0, green: 100/255.0, blue: 100/255.0, alpha: 1.0)
         UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.init(red: 100/255.0, green: 100/255.0, blue: 100/255.0, alpha: 1.0)], for: UIControlState.selected)
+
+        
+        // Navigation Bar Styles
+        UINavigationBar.appearance().tintColor = UIColor.init(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = UIColor.init(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "Hiragino Sans W6", size: 18)!, NSForegroundColorAttributeName:UIColor.init(red: 58/255.0, green: 199/255.0, blue: 243/255.0, alpha: 1.0)]
         return true
     }
     

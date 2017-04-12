@@ -13,6 +13,11 @@
 		1E5B9D051E9DD22D0051AF6A /* BebasNeue_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9D001E9DD20B0051AF6A /* BebasNeue_Regular.ttf */; };
 		1E5B9D061E9DD22F0051AF6A /* BebasNeue_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9D011E9DD20B0051AF6A /* BebasNeue_Thin.ttf */; };
 		1E5B9D081E9DD48B0051AF6A /* icon_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9D071E9DD48B0051AF6A /* icon_v2.png */; };
+		1E5B9D0A1E9DE90D0051AF6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D091E9DE90D0051AF6A /* HomeViewController.swift */; };
+		1E5B9D0E1E9DEADF0051AF6A /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D0D1E9DEADF0051AF6A /* StatsViewController.swift */; };
+		1E5B9D131E9DEB1B0051AF6A /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D121E9DEB1B0051AF6A /* NoticeViewController.swift */; };
+		1E5B9D151E9DEB230051AF6A /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D141E9DEB230051AF6A /* ReservationViewController.swift */; };
+		1E5B9D171E9DEB2D0051AF6A /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D161E9DEB2D0051AF6A /* MyPageViewController.swift */; };
 		1EC870A51E9DCB2500C58B63 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC870A41E9DCB2500C58B63 /* icon.png */; };
 		1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999B91E97795300A8D53A /* AppDelegate.swift */; };
 		1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999BB1E97795300A8D53A /* ViewController.swift */; };
@@ -29,6 +34,11 @@
 		1E5B9D001E9DD20B0051AF6A /* BebasNeue_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Regular.ttf; sourceTree = "<group>"; };
 		1E5B9D011E9DD20B0051AF6A /* BebasNeue_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Thin.ttf; sourceTree = "<group>"; };
 		1E5B9D071E9DD48B0051AF6A /* icon_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_v2.png; sourceTree = "<group>"; };
+		1E5B9D091E9DE90D0051AF6A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1E5B9D0D1E9DEADF0051AF6A /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		1E5B9D121E9DEB1B0051AF6A /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		1E5B9D141E9DEB230051AF6A /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		1E5B9D161E9DEB2D0051AF6A /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		1EC870A41E9DCB2500C58B63 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1EE999B61E97795300A8D53A /* Dorm+takki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dorm+takki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE999B91E97795300A8D53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5B9D0B1E9DEAC90051AF6A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D091E9DE90D0051AF6A /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1E5B9D0C1E9DEAD30051AF6A /* Statstics */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D0D1E9DEADF0051AF6A /* StatsViewController.swift */,
+			);
+			name = Statstics;
+			sourceTree = "<group>";
+		};
+		1E5B9D0F1E9DEAF30051AF6A /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D121E9DEB1B0051AF6A /* NoticeViewController.swift */,
+			);
+			name = Notice;
+			sourceTree = "<group>";
+		};
+		1E5B9D101E9DEAFA0051AF6A /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D141E9DEB230051AF6A /* ReservationViewController.swift */,
+			);
+			name = Reservation;
+			sourceTree = "<group>";
+		};
+		1E5B9D111E9DEB040051AF6A /* My Page */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D161E9DEB2D0051AF6A /* MyPageViewController.swift */,
+			);
+			name = "My Page";
+			sourceTree = "<group>";
+		};
 		1EC870A31E9DCB0E00C58B63 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,11 @@
 			isa = PBXGroup;
 			children = (
 				1EC870A31E9DCB0E00C58B63 /* Resources */,
+				1E5B9D0B1E9DEAC90051AF6A /* Home */,
+				1E5B9D0C1E9DEAD30051AF6A /* Statstics */,
+				1E5B9D0F1E9DEAF30051AF6A /* Notice */,
+				1E5B9D101E9DEAFA0051AF6A /* Reservation */,
+				1E5B9D111E9DEB040051AF6A /* My Page */,
 				1EE999B91E97795300A8D53A /* AppDelegate.swift */,
 				1EE999BB1E97795300A8D53A /* ViewController.swift */,
 				1EE999BD1E97795300A8D53A /* Main.storyboard */,
@@ -179,6 +234,11 @@
 				1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */,
 				1EE999C21E97795300A8D53A /* Dorm_takki.xcdatamodeld in Sources */,
 				1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */,
+				1E5B9D0E1E9DEADF0051AF6A /* StatsViewController.swift in Sources */,
+				1E5B9D131E9DEB1B0051AF6A /* NoticeViewController.swift in Sources */,
+				1E5B9D151E9DEB230051AF6A /* ReservationViewController.swift in Sources */,
+				1E5B9D0A1E9DE90D0051AF6A /* HomeViewController.swift in Sources */,
+				1E5B9D171E9DEB2D0051AF6A /* MyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
