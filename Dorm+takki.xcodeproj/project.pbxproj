@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2987C21E9E0623003ACF99 /* ReservationAlarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2987C01E9E0623003ACF99 /* ReservationAlarmView.xib */; };
+		1E2987C41E9E0968003ACF99 /* ReservationAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2987C31E9E0968003ACF99 /* ReservationAlarmView.swift */; };
 		1E5B9D021E9DD2260051AF6A /* BebasNeue_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */; };
 		1E5B9D031E9DD2280051AF6A /* BebasNeue_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */; };
 		1E5B9D041E9DD22A0051AF6A /* BebasNeue_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */; };
@@ -19,6 +21,8 @@
 		1E5B9D151E9DEB230051AF6A /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D141E9DEB230051AF6A /* ReservationViewController.swift */; };
 		1E5B9D171E9DEB2D0051AF6A /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B9D161E9DEB2D0051AF6A /* MyPageViewController.swift */; };
 		1EC870A51E9DCB2500C58B63 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC870A41E9DCB2500C58B63 /* icon.png */; };
+		1EE7BD8F1E9DF28300B9F4D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7BD8E1E9DF28300B9F4D4 /* LoginViewController.swift */; };
+		1EE7BD911E9DFEEB00B9F4D4 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7BD901E9DFEEB00B9F4D4 /* JoinViewController.swift */; };
 		1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999B91E97795300A8D53A /* AppDelegate.swift */; };
 		1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE999BB1E97795300A8D53A /* ViewController.swift */; };
 		1EE999BF1E97795300A8D53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE999BD1E97795300A8D53A /* Main.storyboard */; };
@@ -28,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2987C01E9E0623003ACF99 /* ReservationAlarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationAlarmView.xib; sourceTree = "<group>"; };
+		1E2987C31E9E0968003ACF99 /* ReservationAlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAlarmView.swift; sourceTree = "<group>"; };
 		1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Bold.ttf; sourceTree = "<group>"; };
 		1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Book.ttf; sourceTree = "<group>"; };
 		1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Light.ttf; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		1E5B9D141E9DEB230051AF6A /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		1E5B9D161E9DEB2D0051AF6A /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		1EC870A41E9DCB2500C58B63 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1EE7BD8E1E9DF28300B9F4D4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1EE7BD901E9DFEEB00B9F4D4 /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		1EE999B61E97795300A8D53A /* Dorm+takki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dorm+takki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE999B91E97795300A8D53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE999BB1E97795300A8D53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				1E5B9D091E9DE90D0051AF6A /* HomeViewController.swift */,
+				1E2987C01E9E0623003ACF99 /* ReservationAlarmView.xib */,
+				1E2987C31E9E0968003ACF99 /* ReservationAlarmView.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -115,6 +125,28 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		1EE7BD8B1E9DF25B00B9F4D4 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B9D0B1E9DEAC90051AF6A /* Home */,
+				1E5B9D0C1E9DEAD30051AF6A /* Statstics */,
+				1E5B9D0F1E9DEAF30051AF6A /* Notice */,
+				1E5B9D101E9DEAFA0051AF6A /* Reservation */,
+				1E5B9D111E9DEB040051AF6A /* My Page */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		1EE7BD8C1E9DF26C00B9F4D4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7BD8B1E9DF25B00B9F4D4 /* Tab Bar */,
+				1EE7BD8E1E9DF28300B9F4D4 /* LoginViewController.swift */,
+				1EE7BD901E9DFEEB00B9F4D4 /* JoinViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		1EE999AD1E97795300A8D53A = {
 			isa = PBXGroup;
 			children = (
@@ -134,12 +166,8 @@
 		1EE999B81E97795300A8D53A /* Dorm+takki */ = {
 			isa = PBXGroup;
 			children = (
+				1EE7BD8C1E9DF26C00B9F4D4 /* UI */,
 				1EC870A31E9DCB0E00C58B63 /* Resources */,
-				1E5B9D0B1E9DEAC90051AF6A /* Home */,
-				1E5B9D0C1E9DEAD30051AF6A /* Statstics */,
-				1E5B9D0F1E9DEAF30051AF6A /* Notice */,
-				1E5B9D101E9DEAFA0051AF6A /* Reservation */,
-				1E5B9D111E9DEB040051AF6A /* My Page */,
 				1EE999B91E97795300A8D53A /* AppDelegate.swift */,
 				1EE999BB1E97795300A8D53A /* ViewController.swift */,
 				1EE999BD1E97795300A8D53A /* Main.storyboard */,
@@ -216,6 +244,7 @@
 				1E5B9D041E9DD22A0051AF6A /* BebasNeue_Light.ttf in Resources */,
 				1E5B9D031E9DD2280051AF6A /* BebasNeue_Book.ttf in Resources */,
 				1E5B9D051E9DD22D0051AF6A /* BebasNeue_Regular.ttf in Resources */,
+				1E2987C21E9E0623003ACF99 /* ReservationAlarmView.xib in Resources */,
 				1EE999C71E97795300A8D53A /* LaunchScreen.storyboard in Resources */,
 				1EE999C41E97795300A8D53A /* Assets.xcassets in Resources */,
 				1E5B9D061E9DD22F0051AF6A /* BebasNeue_Thin.ttf in Resources */,
@@ -231,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE7BD8F1E9DF28300B9F4D4 /* LoginViewController.swift in Sources */,
 				1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */,
 				1EE999C21E97795300A8D53A /* Dorm_takki.xcdatamodeld in Sources */,
 				1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */,
@@ -238,7 +268,9 @@
 				1E5B9D131E9DEB1B0051AF6A /* NoticeViewController.swift in Sources */,
 				1E5B9D151E9DEB230051AF6A /* ReservationViewController.swift in Sources */,
 				1E5B9D0A1E9DE90D0051AF6A /* HomeViewController.swift in Sources */,
+				1EE7BD911E9DFEEB00B9F4D4 /* JoinViewController.swift in Sources */,
 				1E5B9D171E9DEB2D0051AF6A /* MyPageViewController.swift in Sources */,
+				1E2987C41E9E0968003ACF99 /* ReservationAlarmView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

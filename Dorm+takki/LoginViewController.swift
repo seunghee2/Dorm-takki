@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  LoginViewController.swift
 //  Dorm+takki
 //
 //  Created by 이승희 on 12/04/2017.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-
-class HomeViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "DORMTAKKI"
-        self.performSegue(withIdentifier: "LogIn", sender: nil)
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,16 +21,8 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func reserveAlarm(_ sender: UIButton) {
-
-        let reserveView = ReservationAlarmView(frame: self.view.frame)
-        if sender.tag < 10 {
-            
-        } else {
-            
-        }
-        
-        reserveView.showInView(superView: self.view, messages: "")
+    @IBAction func LogInDone(_ sender: Any) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
     /*
