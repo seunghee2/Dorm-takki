@@ -11,10 +11,13 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    let array = [0, 0, 1, 0, 1, 0, 0, 0]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "DORMTAKKI"
         self.performSegue(withIdentifier: "LogIn", sender: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,15 +26,18 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func reserveAlarm(_ sender: UIButton) {
-
-        let reserveView = ReservationAlarmView(frame: self.view.frame)
-        if sender.tag < 10 {
-            
+        let popOver = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ReservationAlarm") as! ReservationAlarmViewController
+        
+        if self.array[sender.tag] == 0 {
+            popOver.initWithType(type: "off")
         } else {
-            
+            popOver.initWithType(type: "on")
         }
         
-        reserveView.showInView(superView: self.view, messages: "")
+        self.addChildViewController(popOver)
+        popOver.view.frame = self.view.frame
+        self.view.addSubview(popOver.view)
+        popOver.didMove(toParentViewController: self)
     }
 
     /*

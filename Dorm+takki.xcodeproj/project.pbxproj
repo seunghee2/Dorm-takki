@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E2987C21E9E0623003ACF99 /* ReservationAlarmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2987C01E9E0623003ACF99 /* ReservationAlarmView.xib */; };
-		1E2987C41E9E0968003ACF99 /* ReservationAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2987C31E9E0968003ACF99 /* ReservationAlarmView.swift */; };
+		1E571C681EA6383400C60F01 /* ReservationAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E571C671EA6383400C60F01 /* ReservationAlarmViewController.swift */; };
 		1E5B9D021E9DD2260051AF6A /* BebasNeue_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */; };
 		1E5B9D031E9DD2280051AF6A /* BebasNeue_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */; };
 		1E5B9D041E9DD22A0051AF6A /* BebasNeue_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */; };
@@ -32,8 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E2987C01E9E0623003ACF99 /* ReservationAlarmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationAlarmView.xib; sourceTree = "<group>"; };
-		1E2987C31E9E0968003ACF99 /* ReservationAlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAlarmView.swift; sourceTree = "<group>"; };
+		1E571C671EA6383400C60F01 /* ReservationAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAlarmViewController.swift; sourceTree = "<group>"; };
 		1E5B9CFD1E9DD20B0051AF6A /* BebasNeue_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Bold.ttf; sourceTree = "<group>"; };
 		1E5B9CFE1E9DD20B0051AF6A /* BebasNeue_Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Book.ttf; sourceTree = "<group>"; };
 		1E5B9CFF1E9DD20B0051AF6A /* BebasNeue_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Light.ttf; sourceTree = "<group>"; };
@@ -73,8 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				1E5B9D091E9DE90D0051AF6A /* HomeViewController.swift */,
-				1E2987C01E9E0623003ACF99 /* ReservationAlarmView.xib */,
-				1E2987C31E9E0968003ACF99 /* ReservationAlarmView.swift */,
+				1E571C671EA6383400C60F01 /* ReservationAlarmViewController.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -244,7 +241,6 @@
 				1E5B9D041E9DD22A0051AF6A /* BebasNeue_Light.ttf in Resources */,
 				1E5B9D031E9DD2280051AF6A /* BebasNeue_Book.ttf in Resources */,
 				1E5B9D051E9DD22D0051AF6A /* BebasNeue_Regular.ttf in Resources */,
-				1E2987C21E9E0623003ACF99 /* ReservationAlarmView.xib in Resources */,
 				1EE999C71E97795300A8D53A /* LaunchScreen.storyboard in Resources */,
 				1EE999C41E97795300A8D53A /* Assets.xcassets in Resources */,
 				1E5B9D061E9DD22F0051AF6A /* BebasNeue_Thin.ttf in Resources */,
@@ -262,6 +258,7 @@
 			files = (
 				1EE7BD8F1E9DF28300B9F4D4 /* LoginViewController.swift in Sources */,
 				1EE999BC1E97795300A8D53A /* ViewController.swift in Sources */,
+				1E571C681EA6383400C60F01 /* ReservationAlarmViewController.swift in Sources */,
 				1EE999C21E97795300A8D53A /* Dorm_takki.xcdatamodeld in Sources */,
 				1EE999BA1E97795300A8D53A /* AppDelegate.swift in Sources */,
 				1E5B9D0E1E9DEADF0051AF6A /* StatsViewController.swift in Sources */,
@@ -270,7 +267,6 @@
 				1E5B9D0A1E9DE90D0051AF6A /* HomeViewController.swift in Sources */,
 				1EE7BD911E9DFEEB00B9F4D4 /* JoinViewController.swift in Sources */,
 				1E5B9D171E9DEB2D0051AF6A /* MyPageViewController.swift in Sources */,
-				1E2987C41E9E0968003ACF99 /* ReservationAlarmView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
