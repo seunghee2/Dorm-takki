@@ -29,9 +29,9 @@ class HomeViewController: UIViewController {
         let popOver = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ReservationAlarm") as! ReservationAlarmViewController
         
         if self.array[sender.tag] == 0 {
-            popOver.initWithType(type: "off")
+            popOver.initWithType(type: "off", number: "\(sender.tag + 1)")
         } else {
-            popOver.initWithType(type: "on")
+            popOver.initWithType(type: "on", number: "\(sender.tag + 1)")
         }
         
         self.addChildViewController(popOver)

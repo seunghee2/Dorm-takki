@@ -13,14 +13,18 @@ class ReservationAlarmViewController: UIViewController {
 
     @IBOutlet weak var contentView: UIView!
     var type: String = ""
+    var number: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.5)
+        self.contentView.layer.cornerRadius = 10
         self.initLabel()
         self.showAnimate()
     }
     
-    func initWithType(type: String) {
+    func initWithType(type: String, number: String) {
         self.type = type
+        self.number = number
     }
 
     @IBAction func closeView(_ sender: Any) {
@@ -29,7 +33,11 @@ class ReservationAlarmViewController: UIViewController {
     
     func initLabel() {
         if self.messageLabel != nil {
-            self.messageLabel.text = self.type
+            if self.type == "on" {
+                self.messageLabel.text = self.number + "번째 세탁기가 현재 동작 중입니다."
+            } else {
+                self.messageLabel.text = self.number + "번째 세탁기가 현재 사용 가능합니다."
+            }
         }
     }
     
