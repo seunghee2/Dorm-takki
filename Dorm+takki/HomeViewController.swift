@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "DORMTAKKI"
-        self.performSegue(withIdentifier: "LogIn", sender: nil)
+        //self.performSegue(withIdentifier: "LogIn", sender: nil)
         
     }
 
