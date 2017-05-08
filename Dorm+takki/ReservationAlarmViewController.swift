@@ -10,12 +10,13 @@ import UIKit
 
 class ReservationAlarmViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
-
     @IBOutlet weak var confirmButton: UIButton!
     @IBOutlet weak var cancelButton: UIButton!
     @IBOutlet weak var contentView: UIView!
+    
     var type: String = ""
     var number: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.init(red: 0/255.0, green: 0/255.0, blue: 0/255.0, alpha: 0.5)

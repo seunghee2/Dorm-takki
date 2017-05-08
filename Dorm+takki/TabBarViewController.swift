@@ -20,6 +20,13 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        if viewController == self.viewControllers![2] {
+            let alert = UIAlertController(title: "알림", message: "준비 중입니다.", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "확인", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            
+            return false
+        }
        /*
         if viewController == self.viewControllers![3]{
             let alert = UIAlertController(title: "알림", message: "예약 내역이 존재하지 않습니다.", preferredStyle: UIAlertControllerStyle.alert)

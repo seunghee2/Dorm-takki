@@ -17,7 +17,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = "DORMTAKKI"
         //self.performSegue(withIdentifier: "LogIn", sender: nil)
-        
     }
 
     override func didReceiveMemoryWarning() {

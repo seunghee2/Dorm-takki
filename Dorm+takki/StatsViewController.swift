@@ -31,9 +31,9 @@ class StatsViewController: UIViewController {
         self.searchForDate = "MON"
         self.monButton.setTitleColor(UIColor.init(red: 255/255.0, green: 128/255.0, blue: 0/255.0, alpha: 1.0), for: .normal)
         self.dailyChartView.backgroundColor = UIColor(white:1, alpha: 0)
+        
         self.drawDailyChart()
         self.drawChart()
-        // Do any additional setup after loading the view.
     }
     
     func drawChart() {
@@ -215,18 +215,6 @@ class StatsViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

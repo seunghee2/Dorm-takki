@@ -16,7 +16,6 @@ class ReservationViewController: UIViewController {
         self.navigationItem.title = "RESERVATIONS"
         self.addCircleView(self.timerView, isForeground: false, duration: 0.0, fromValue: 0.0, toValue: 1.0)
         self.initializeCircle()
-        // Do any additional setup after loading the view.
     }
     
     func initializeCircle() {
