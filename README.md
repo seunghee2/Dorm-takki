@@ -4,7 +4,8 @@ For managing public laundry, we developed a system to monitor the use of washing
 
 - optimized to iPhone 6 & 7 with iOS 10
 
-## UI
+## Screen Shots
+![launch_screenshot](./UI/summary.jpeg)
 
 ## Reference
 - [Charts] : https://github.com/danielgindi/Charts
