@@ -1,9 +1,11 @@
 PODS:
+  - AZSClient (0.2.4)
   - Charts (3.0.2):
     - Charts/Core (= 3.0.2)
   - Charts/Core (3.0.2)
 
 DEPENDENCIES:
+  - AZSClient
   - Charts (from `https://github.com/danielgindi/Charts.git`, branch `master`)
 
 EXTERNAL SOURCES:
@@ -17,8 +19,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/danielgindi/Charts.git
 
 SPEC CHECKSUMS:
+  AZSClient: 086e68a3a043da5e162c7a962efce9fbceb1c9f7
   Charts: e955b9a241a14a8971d70143002c8ab1610d26b6
 
-PODFILE CHECKSUM: b29ce5f5ddf0b9aaf712d1ce3de5612fa5c18bbf
+PODFILE CHECKSUM: 2955e7fd7f1dd2a0c271919ea6c3de415f0bbfc6
 
 COCOAPODS: 1.2.1

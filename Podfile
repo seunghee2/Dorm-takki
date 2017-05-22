@@ -7,6 +7,7 @@ target 'Dorm+takki' do
 
   # Pods for Dorm+takki
   pod 'Charts', :git => 'https://github.com/danielgindi/Charts.git', :branch => 'master'
+  pod 'AZSClient'
   post_install do |installer|
     installer.pods_project.targets.each do |target|
       target.build_configurations.each do |config|

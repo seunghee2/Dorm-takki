@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import AZSClient
 
 
 class HomeViewController: UIViewController {
 
     let array = [0, 0, 1, 0, 1, 0, 0, 0]
     
+    // if using a SAS token, fill it in here. If using Shared key access, comment out the following line
+    //var containerURL = ""
+    //var usingSAS = true
+    
+    // if using shared key access, fill in your credential here and un-comment the 'UsingSAS' line:
+    var connectionString = ""
+    var containerName = ""
+    // var usingSAS = false
+    
+    var blobs = [AZSCloudBlob]()
+    var continuationToken: AZSContinuationToken?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "DORMTAKKI"
+    
         //self.performSegue(withIdentifier: "LogIn", sender: nil)
     }
 

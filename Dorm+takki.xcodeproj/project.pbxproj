@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E17A37E1ED2F8E90036903A /* AZSClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E17A37D1ED2F8E90036903A /* AZSClient.framework */; };
 		1E26BB7E1EB73F73001F5D73 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E26BB7D1EB73F73001F5D73 /* CircleView.swift */; };
 		1E26BB821EB7469B001F5D73 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E26BB811EB7469B001F5D73 /* TabBarViewController.swift */; };
 		1E571C681EA6383400C60F01 /* ReservationAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E571C671EA6383400C60F01 /* ReservationAlarmViewController.swift */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E17A37C1ED2F3550036903A /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		1E17A37D1ED2F8E90036903A /* AZSClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AZSClient.framework; path = "../../../Library/Developer/Xcode/DerivedData/Dorm+takki-creedscyvdhsabasowyonawfxdii/Build/Products/Debug-iphoneos/AZSClient/AZSClient.framework"; sourceTree = "<group>"; };
 		1E26BB7D1EB73F73001F5D73 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		1E26BB811EB7469B001F5D73 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1E571C671EA6383400C60F01 /* ReservationAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAlarmViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E17A37E1ED2F8E90036903A /* AZSClient.framework in Frameworks */,
 				4E0E2BD9DF26FCF4014A7026 /* Pods_Dorm_takki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +85,7 @@
 			children = (
 				1E5B9D091E9DE90D0051AF6A /* HomeViewController.swift */,
 				1E571C671EA6383400C60F01 /* ReservationAlarmViewController.swift */,
+				1E17A37C1ED2F3550036903A /* Bridging-Header.h */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 		622D854D2A6AD474FEE7BE9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E17A37D1ED2F8E90036903A /* AZSClient.framework */,
 				727636B266D57E47DE9C7065 /* Pods_Dorm_takki.framework */,
 			);
 			name = Frameworks;
@@ -479,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seunghee.Dorm-takki";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dorm+takki/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -494,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seunghee.Dorm-takki";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dorm+takki/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
