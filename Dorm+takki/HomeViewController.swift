@@ -18,21 +18,78 @@ class HomeViewController: UIViewController {
     //var containerURL = ""
     //var usingSAS = true
     
+    
     // if using shared key access, fill in your credential here and un-comment the 'UsingSAS' line:
-    var connectionString = ""
-    var containerName = ""
+    var connectionString = "DefaultEndpointsProtocol=https;AccountName=dormstorage;AccountKey=6aATMMJD6zS+fzO6dTFFndkGG8mOVRm6MVZmNEioUZHE13b0cSkUGWrKkaUQ7b5JjYiibNv5clvB8a1D7ihmGA==;EndpointSuffix=core.windows.net"
+    var containerName = "mycontainer"
     // var usingSAS = false
     
     var blobs = [AZSCloudBlob]()
+    var container: AZSCloudBlobContainer
     var continuationToken: AZSContinuationToken?
+    
+    required init?(coder aDecoder: NSCoder) {
+        let storageAccount: AZSCloudStorageAccount
+        try! storageAccount = AZSCloudStorageAccount(fromConnectionString: connectionString)
+        let blobClient = storageAccount.getBlobClient()
+        self.container = blobClient.containerReference(fromName: containerName)
+        
+        let condition = NSCondition()
+        var containerCreated = false
+        
+        self.container.createContainerIfNotExists { (error : Error?, created) -> Void in
+            condition.lock()
+            containerCreated = true
+            condition.signal()
+            condition.unlock()
+        }
+        
+        condition.lock()
+        while (!containerCreated) {
+            condition.wait()
+        }
+        condition.unlock()
+        
+        
+        self.continuationToken = nil
+        super.init(coder: aDecoder)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "DORMTAKKI"
-    
+        
+        self.reloadBlobList()
+        
         //self.performSegue(withIdentifier: "LogIn", sender: nil)
     }
+    
+    func reloadBlobList() {
+        container.listBlobsSegmented(with: nil, prefix: nil, useFlatBlobListing: true, blobListingDetails: AZSBlobListingDetails(), maxResults: 50) { (error : Error?, results : AZSBlobResultSegment?) -> Void in
+            
+            self.blobs = [AZSCloudBlob]()
+            
+            for blob in results!.blobs! {
+                self.blobs.append(blob as! AZSCloudBlob)
+                
+            }
+            
+            self.continuationToken = results!.continuationToken
+            self.parseBlobs()
+            //self.tableView.performSelector(onMainThread: #selector(UICollectionView.reloadData), with: nil, waitUntilDone: false)
+        }
+    }
 
+    func parseBlobs() {
+        for blob in self.blobs {
+            blob.downloadToText(completionHandler: { (error : Error?, blobText : String?) -> Void in
+                print(blobText as Any)
+                // self.performSelector(onMainThread: #selector(GetBlobViewController.setBlobText(_:)), with: blobText, waitUntilDone: false)
+            })
+            //print(blob.blobName)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
